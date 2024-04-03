@@ -1,0 +1,7 @@
+﻿namespace Order.Shared
+{
+    public class Class1
+    {
+
+    }
+}
