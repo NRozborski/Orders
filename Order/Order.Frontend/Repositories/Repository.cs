@@ -6,6 +6,7 @@ namespace Order.Frontend.Repositories
     public class Repository : IRepository
     {
         private readonly HttpClient _httpClient;
+
         private JsonSerializerOptions _jsonDefaultOptions => new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
